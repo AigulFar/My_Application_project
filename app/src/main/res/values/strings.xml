@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Дневник Питания</string>
+    <string name="title_home">Дневник Питания</string>
+    <string name="title_dashboard">Калькулятор Калорий</string>
+    <string name="title_notifications">Советы</string>
+    <string name="text_dashboard_1">Калькулятор для определения суточной нормы калорий</string>
+    <string name="text_dashboard_2">Введите свой вес, рост, возраст и пол</string>
+    <string name="facts_1">5 способов для эффективного похудения</string>
+    <string name="facts_2"></string>
+
+</resources>

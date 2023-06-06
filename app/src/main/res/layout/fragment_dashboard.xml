@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_1"
+
+    android:orientation="vertical"
+    android:rotationX="0"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:id="@+id/text_dashboard_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/text_dashboard_1"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_dashboard_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_dashboard_2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText_hight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:inputType="number"
+        android:hint="Рост (в см)" />
+
+    <EditText
+        android:id="@+id/editText_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/white"
+
+        android:inputType="number"
+        android:hint="Вес (в кг)" />
+
+    <EditText
+        android:id="@+id/editText_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+
+        android:hint="Возраст (в годах)" />
+
+    <Spinner
+        android:id="@+id/spinner_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_Names" />
+
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bt"
+        android:insetTop="60dp"
+        android:text="Рассчитать" />
+
+    <TextView
+        android:id="@+id/text_dashboard_3"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:lineSpacingExtra="14sp"
+        android:textAlignment="center"
+        android:textColor="#BDAF65"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
